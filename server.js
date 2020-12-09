@@ -10,7 +10,7 @@ const routes = require('.//routes/api');
 
 
 // MONGODB_URI|| 
-cosnt MONGO_DB ;
+
 mongoose.connect(process.env.MONGODB_URI||'mongodb://localhost/test',{
     useNewUrlParser:true,
     useUnifiedTopology:true

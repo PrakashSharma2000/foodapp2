@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8081;
 const routes = require('.//routes/api');
 
 //MongoDb uri
-// const MONGODB_URI = 'mongodb+srv://PrakashSharma:Prakash25s@testdb.w7sqc.mongodb.net/TestDB?retryWrites=true&w=majority';
+
 // MONGODB_URI|| 
 
 mongoose.connect(process.env.MONGODB_URI||'mongodb://localhost/test',{

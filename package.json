@@ -10,7 +10,7 @@
     "heroku-postbuild":"npm run install-client && npm run build",
     "start": "node server.js",
     "foodapp": "cd foodapp && npm start",
-    "start": "concurrently -n 'server,foodapp' -c'red,green' \"nodemon server.js\" \"npm run foodapp\""
+    "dev": "concurrently -n 'server,foodapp' -c'red,green' \"nodemon server.js\" \"npm run foodapp\""
   },
   "author": "",
   "license": "ISC",

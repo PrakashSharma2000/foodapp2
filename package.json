@@ -8,7 +8,7 @@
     "build": "cd foodapp && npm run build",
     "install-client": "cd foodapp && npm install",
     "heroku-postbuild":"npm run install-client && npm run build",
-    "start": "node server.js && npm build",
+    "start": "node server.js",
     "foodapp": "cd foodapp && npm start",
     "dev": "concurrently -n 'server,foodapp' -c'red,green' \"nodemon server.js\" \"npm run foodapp\""
   },

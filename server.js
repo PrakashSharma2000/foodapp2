@@ -30,7 +30,7 @@ app.use(morgan('tiny'));
 app.use('/api',routes);
 
 if(process.env.NODE_ENV === 'production'){
-    app.use(express.static('foodapp2/build'))
+    app.use(express.static('foodapp/build'))
 }
 
 app.listen(PORT,console.log(`server is starting at ${PORT}`));
